@@ -1,3 +1,9 @@
+# revision 16005
+# category Package
+# catalog-ctan /macros/latex/contrib/pauldoc
+# catalog-date 2009-11-10 13:46:41 +0100
+# catalog-license lppl
+# catalog-version 0.5
 Name:		texlive-pauldoc
 Version:	0.5
 Release:	1
@@ -43,6 +49,7 @@ package documentation.
 #- source
 %doc %{_texmfdistdir}/source/latex/pauldoc/pauldoc.dtx
 %doc %{_texmfdistdir}/source/latex/pauldoc/pauldoc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ package documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
