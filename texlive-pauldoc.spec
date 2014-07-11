@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-pauldoc
 Version:	0.5
-Release:	7
+Release:	8
 Summary:	German LaTeX package documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pauldoc
