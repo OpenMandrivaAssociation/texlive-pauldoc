@@ -1,6 +1,6 @@
 Name:		texlive-pauldoc
 Version:	16005
-Release:	1
+Release:	2
 Summary:	German LaTeX package documentation
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pauldoc
